@@ -46,4 +46,4 @@ jobs:
           service_account: github-firebase-hosting@simplewellnessv1.iam.gserviceaccount.com
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting --project simplewellnessv1 --non-interactive
+        run: firebase deploy --only hosting,firestore:rules,storage --project simplewellnessv1 --non-interactive
