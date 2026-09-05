@@ -5,13 +5,6 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/admin",
-        "destination": "/admin/",
-        "type": 301
-      }
     ]
   },
   "firestore": {
